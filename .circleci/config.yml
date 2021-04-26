@@ -23,7 +23,7 @@ jobs:
           paths:
             - ~/.npm
 
-      - run: npm run style
+      #- run: npm run style
       - run: npm run lint
 
       - run: npx ng build --prod
