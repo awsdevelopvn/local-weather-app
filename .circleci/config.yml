@@ -24,7 +24,7 @@ jobs:
             - ~/.npm
 
       #- run: npm run style
-      - run: npm run lint
+      #- run: npm run lint
 
       - run: npx ng build --prod
       - run: npx ng test --watch=false
